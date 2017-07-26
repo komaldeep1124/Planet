@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Planet
 {
     /// <summary>
-    /// name:komaldeep kaue
+    /// name:komaldeep kaur
     /// student no:300926834
     /// this is gaintplanet sub class inherirted from planets.
     /// </summary>
