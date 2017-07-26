@@ -11,7 +11,7 @@ namespace Planet
     /// student no:300926834
     /// this is gaintplanet sub class inherirted from planets.
     /// </summary>
-    public class GiantPlanet : Planets ,IHasMoons
+    public class GiantPlanet : Planets ,IHasMoons,IHabitable
     {
         //private instance variables
         private string _type;
@@ -47,6 +47,17 @@ namespace Planet
         public bool HasRings()
         {
             if (RingCount > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        public bool Habitable()
+        {
+            if (_oxygen == true)
             {
                 return true;
             }

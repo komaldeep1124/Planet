@@ -18,11 +18,8 @@ namespace Planet
             TerrestialPlanet terrestialPlanet = new TerrestialPlanet("venus", 120581, 4867500, true, 0);
             Console.WriteLine(terrestialPlanet.ToString());
             Console.WriteLine("================================================================================");
-            WaitForAnyKey();
+         
         }
-        public static void WaitForAnyKey()
-        {
-            Console.ReadKey();
-        }
+      
     }
 }
