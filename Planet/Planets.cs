@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace Planet
 {
+    /// <summary>
+    /// name:komaldeep kaur
+    /// student:300926834
+    /// this is my abstract classe:planets.
+    /// </summary>
    public abstract class Planets
     {
         //private instance variables.
