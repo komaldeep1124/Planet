@@ -10,7 +10,7 @@ namespace Planet
 /// student no:300926834
 /// this terrestial planet sub class
 /// </summary>
-   public class TerrestialPlanet: Planets,IHasMoons
+   public class TerrestialPlanet: Planets,IHasMoons,IHabitable
     {
         //PRIVATE INSTANCE VARIABLES
         private bool _oxygen;

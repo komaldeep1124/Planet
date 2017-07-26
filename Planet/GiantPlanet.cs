@@ -11,7 +11,7 @@ namespace Planet
     /// student no:300926834
     /// this is gaintplanet sub class inherirted from planets.
     /// </summary>
-    public class GiantPlanet : Planets ,IHasMoons   
+    public class GiantPlanet : Planets ,IHasMoons
     {
         //private instance variables
         private string _type;
